@@ -1,4 +1,5 @@
-Saat aplikasi dijalankan dan foto tidak muncul lakukan langkah" ini:
+Saat aplikasi dijalankan dan melakukan tambah buku atau edit pada bagian foto dan foto tidak muncul lakukan langkah" ini:
+
 "Hard Reset" Symlink (Lakukan di File Explorer)
 
 1.Buka folder project Anda lewat File Explorer.
