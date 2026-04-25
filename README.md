@@ -1,10 +1,16 @@
-tambah footersudah
-merapikan style adminsua 
-memperbaiki halaman peminjaman adminsudah
-dokumentasi aplikasi masih revisi
-menambahkan nama di dashboard berdasarkan yang login sudah
+Saat aplikasi dijalankan dan foto tidak muncul lakukan langkah" ini:
+"Hard Reset" Symlink (Lakukan di File Explorer)
 
+1.Buka folder project Anda lewat File Explorer.
 
-tambah ss crud controller
+2.Masuk ke folder public.
 
-tambah tabel seperti di halaman buku
+3.Cari folder bernama storage . Hapus folder itu secara permanen.
+
+Buka VS Code, buka terminal, dan pastikan Anda berada di direktori project.
+
+Ketik perintah ini:
+
+php artisan storage:link
+
+Cek lagi di folder public, harusnya muncul folder shortcut storage yang baru.
